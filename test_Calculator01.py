@@ -1,7 +1,6 @@
 import Calculator01
 import pytest
 
-
 @pytest.mark.xfail
 @pytest.mark.parametrize("a,b,c",[(3,2,5),(10,12,15),(2,5,8),(7,8,15)])
 def test_add(a,b,c):
